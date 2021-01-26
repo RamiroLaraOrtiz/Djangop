@@ -1,8 +1,11 @@
 from django.test import TestCase
-
-# Create your tests here.
 from config.wsgi import *
+from core.erp.models import *
+# Create your tests here.
+'''
+rom config.wsgi import *
 from core.erp.models import Type
+'''
 
 #Listar
 '''
@@ -79,3 +82,6 @@ for i in Type.objects.filter(name__endswith='a')[:1]:
     print(i.name)
 '''
 #First Commit
+
+for i in Category.objects.filter():
+    print(i)
