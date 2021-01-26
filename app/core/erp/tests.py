@@ -78,3 +78,4 @@ for i in Type.objects.filter(name__endswith='a') :
 for i in Type.objects.filter(name__endswith='a')[:1]:
     print(i.name)
 '''
+#First Commit
