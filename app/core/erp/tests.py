@@ -84,4 +84,5 @@ for i in Type.objects.filter(name__endswith='a')[:1]:
 #First Commit
 
 for i in Category.objects.filter():
-    print(i)
+    print(i.name)
+
